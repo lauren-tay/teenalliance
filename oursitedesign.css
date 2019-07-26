@@ -1,0 +1,155 @@
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  background-color:#f2f2f2;
+}
+
+.topnav {
+  background-color:#f2f2f2 ;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-stretch:ultra-expanded;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #333;
+  color: white;
+}
+
+
+.hero-image {
+
+  background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("protest.jpg");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 50px;
+}
+#homepage{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("home.jpg");
+}
+#reasons{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("13reasonswhy.jpg");
+}
+#stigma{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("stigma.jpg");
+}
+#about{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("us.jpg");
+}
+#current{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("currentevents.jpg");
+}
+#involved{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("getinvolved.jpg");
+}
+#prop{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("prop63.jpg");
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+      footer {
+        padding: 50px 100px;
+        background: #333 ;
+        color: white;
+        margin-top: 70px;
+      }
+      a {
+        color: #00faff;
+      }
+h1 { color: #ffffff;
+    font-size: 130px;
+     font-weight: 900;
+      line-height: normal;
+       margin: 10 10 10px;
+        text-align: center;
+         text-transform: uppercase;
+        line-height:90% ;
+        padding-top: 10px;
+        font-family: 'Oswald', sans-serif;
+        }
+h3 {
+  font-size: 30px;
+    line-height: normal;
+     margin: 10 10 10px;
+      text-align: center;
+       text-transform: uppercase;
+      line-height:90% ;
+      padding-top: 10px;
+      font-family: 'Oswald', sans-serif;
+
+}
+h2{
+text-align: left;
+  font-family: 'Oswald', sans-serif;
+   text-transform: uppercase;
+     font-size:40px;
+       color: #333;
+       margin-left: 50px;
+}
+
+
+p{
+align-content: center;
+margin-left: 150px;
+margin-right: 150px;
+margin-top: 30px;
+font-family: 'Tinos', serif;
+font-size:22px;
+color: #333;
+font-stretch: ultra-expanded;
+}
+
+a{
+  font-family: 'Oswald', sans-serif;
+  color: #333;
+  font-size:35px;
+  text-transform: uppercase;
+
+
+}
+
+td{
+  font-family: 'Tinos', serif;
+  font-size:22px;
+  color: #333;
+
+}
+
+
+#move{
+  margin-left: 70px;
+}
